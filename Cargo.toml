@@ -4,5 +4,9 @@ version = "0.1.0"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 
+description = "Date arithmetic for periodic time series (monthly, quarterly, annual)"
+repository = "https://github.com/ericfindlay/periodic_date"
+keywords = ["date", "time", "finance", "economics", "periodic"]
+
 [dependencies]
 debug_err = "0.1.0"

@@ -2,6 +2,7 @@
 name = "periodic_date"
 version = "0.1.0"
 edition = "2024"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 debug_err = "0.1.0"

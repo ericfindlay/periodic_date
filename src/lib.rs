@@ -1,6 +1,5 @@
 /*!
-Dates suitable for working with time-series with monthly or longer periods between
-datum.
+Dates suitable for working with time-series that use monthly or longer periods.
 
 New periods can be constructed easily. For example,
 ```
@@ -484,8 +483,6 @@ mod test {
 
     #[test]
     fn partial_cmp_on_step_is_correct() {
-        use std::cmp::Ordering::*;
-
         assert!(Step::Negative(1) > Step::Negative(2));
         assert!(Step::Positive(1) < Step::Positive(3));
         assert!(Step::Negative(999) < Step::Positive(1));
